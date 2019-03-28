@@ -1,0 +1,14 @@
+{
+  "miniprogramRoot": "./dist",
+  "projectname": "logoly-pro",
+  "description": "Logoly.Pro - A simple online logo generator",
+  "appid": "wx41eb28b08dde7f06",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.6.4"
+}
