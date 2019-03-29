@@ -1,11 +1,12 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Text } from '@tarojs/components'
+import Logo from '../../components/Logo'
 import './index.less'
 
 export default class Index extends Component {
 
   config = {
-    navigationBarTitleText: '首页'
+    navigationBarTitleText: 'Logoly.Pro'
   }
 
   componentWillMount () { }
@@ -20,8 +21,9 @@ export default class Index extends Component {
 
   render () {
     return (
-      <View className='index'>
-        <Text>Hello world!</Text>
+      <View className='logoly-pro index'>
+        <Logo />
+        <View className='logoly-pro-brief'>一个简约的在线 Logo 生成工具</View>
       </View>
     )
   }
