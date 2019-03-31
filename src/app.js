@@ -11,11 +11,11 @@ import './app.less'
 
 class App extends Component {
   config = {
-    pages: ['pages/index/index'],
+    pages: ['pages/index/index', 'pages/generator/index'],
     window: {
       backgroundTextStyle: 'dark',
       navigationBarBackgroundColor: '#333',
-      navigationBarTitleText: 'WeChat',
+      navigationBarTitleText: 'Logoly.Pro',
       navigationBarTextStyle: 'white',
     },
   }
